@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Functionality.js"></script>
+    <script src="https://kit.fontawesome.com/f569d51008.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Welcome| Ngazani's Portfolio</title>
+<script defer data-domain="crimson-jyoti-4.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/LogoN.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>I Am A <span class="auto-text"></span></p>
+                <h1>Hey there! <br>I'm <span>Ngazani</span></h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!---About Me Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="Images/ProfilePicture.jpg" alt="">
+                </div>
+
+                <div class="about-col2">
+                    <h1 class="sub-title">Who Am I?</h1>
+                    <p>
+                        I am a very curious and ambitious person. Though I spend the vast majority of my time writing
+                        code, <br>
+                        I keep fit by going to the gym and occasionally playing football. I am also quite a fan of
+                        anime. <br>
+                        I studied at the IIE's Rosebank College for 3 years. During that time I learned how to
+                        efficiently build scalable websites, web apps, <br>
+                        and mobile apps. One of the main reasons I became a developer was to make a difference in the
+                        world through code.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>App Development</span><br>Designing and Developing Desktop and Mobile Applications
+                                using Java</li>
+                            <li><span>Web Development</span><br>Building scalable Web and Desktop Applications using C#,
+                                .Net Framework, HTML,CSS,JS and/or PHP</li>
+                            <li><span>Database Development</span><br>Database design, modification and overall
+                                optimization using SQL and/or PLSQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Present</span><br>ADEI (PTY) LTD: Junior Web Developer </li>
+                            <li><span>2021-2022</span><br> Dikgabo IT Solutions: Assistant IT Technician</li>
+                            <li><span>2021-2022</span><br>Dikgabo IT Solutions: Web and Systems Developer</li>
+                            <li><span>2021</span><br>Christmas Drive: Christmas Elf (Volunteer)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br> IIE Rosebank College: Diploma In Information Technology (Software
+                                Development)</li>
+                            <li><span>2019</span><br>Suncrest Highschool: Matric</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Services Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Can Do For You</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> I build scalable multi-page websites for both personal and business uses. <br>
+                        each website is built with the individuals needs in mind.
+                    </p>
+                    <a href="https://novicedock.com/learn/computer-science/web-development">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>App Development</h2>
+                    <p>I can build a variety of Mobile, Desktop and Web Applications. I can also code different versions
+                        <br>
+                        of the same app. However I currently specialize in Android and Window's based Applications.
+                    </p>
+                    <a href="https://orases.com/what-is-app-development/">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Development</h2>
+                    <p>I design, bulild and manage databases for clients. I also tend to pair my databases with the apps
+                        <br>
+                        and websites that I build (if needs be ofcourse).
+                    </p>
+                    <a
+                        href="https://webheadtech.com/blog/database-development/#:~:text=Database%20development%20is%20designing%2C%20creating,meet%20the%20needs%20of%20business.">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---portfolio Section-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> What I Have Done</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Logo and Icon.jpeg" alt="screenshot">
+                    <div class="layer">
+                        <h3>Kasi Busy Corner</h3>
+                        <p>This is a web and mobile application. It was specifically designed to help manage the lines
+                            and bookings
+                            at a carwash</p>
+                        <a href="https://github.com/Ngazani/Kasi-Busy-Corner"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/Disaster.jpg" alt="screenshot">
+                    <div class="layer">
+                        <h3>Disaster Alleviation Foundation</h3>
+                        <p>This application is designed to log diasters in various areas as well as <br>
+                            the necessary aids needed. </p>
+                        <a href="https://github.com/Ngazani/DisasterAlleviationProject"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/PerfectSquare.png" alt="screenshot">
+                    <div class="layer">
+                        <h3>Perfect Square</h3>
+                        <p>This is a basic java app that determines as to whether or not a user entered number is a
+                            perfect square.</p>
+                        <a href="https://github.com/Ngazani/Perfect-Square"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Ngazani " class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--contact me-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> ngazanig@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone"></i> 071 885 2478</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ngazani-gamede-1904371b7"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/itsngazii/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Images/Ngazani Professional Resume.pdf" download class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="submit" class="btn btn2" value="Send">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Ngazani My Portfolio Site</p>
+        </div>
+    </div>
+
+    <!-- Side Menu Functionality for smaller devices-->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!--Submit form functionality-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqgGs-OqIHV-3proNsXgjq6waErGn5Yu2IPBLd_be7Og46gQebw_JvLFyKK6BgjXlgCw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    msg.innerHTML = "Message Successfully Sent"
+                    setTimeout(function () { msg.innerHTML = "" }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!--Auto type text animation functionality-->
+    <script>
+        var typedText = new Typed(".auto-text", {
+            strings: ['C# Developer', 'Java Developer', 'Web Developer', 'Mobile App Developer', 'Database Developer', 'Web App Developer', 'Software Developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
